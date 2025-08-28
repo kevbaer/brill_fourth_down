@@ -1,7 +1,7 @@
 
 ttswd = getwd()
 setwd("..")
-source("00_main.R")
+source("~/Documents/GitHub/brill_fourth_down/00_main.R")
 setwd(ttswd)
 WP = if(!exists("WP")) FALSE else WP ### default to expected points models
 

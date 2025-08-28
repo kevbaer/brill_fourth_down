@@ -1,5 +1,5 @@
 
-source("0_clean_lm.R")
+source("~/Documents/GitHub/brill_fourth_down/0_clean_lm.R")
 
 WP = if(!exists("WP")) TRUE else WP ### default to expected points models
 
@@ -8,7 +8,7 @@ WP = if(!exists("WP")) TRUE else WP ### default to expected points models
 ########################
 
 ### full dataset
-data_full_0 <- read_csv("data7b.csv") 
+data_full_0 <- read_csv("/Users/kevinbaer/BrillFourthDown/data7b.csv") 
 
 ### for some reason, the pointspread from nflFastR is flipped, so flip it back!
 data_full_0 <- data_full_0 %>% mutate(posteam_spread = -posteam_spread)

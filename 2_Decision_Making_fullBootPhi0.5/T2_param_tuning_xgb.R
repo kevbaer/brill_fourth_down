@@ -14,9 +14,9 @@ TUNE_ALL_6_PARAMS_AT_ONCE = FALSE
 ### load data ###
 #################
 
-source("T1_train_test_split.R") 
-source("T2_models_rf.R")
-source("T2_models_xgb.R")
+source("~/Documents/GitHub/brill_fourth_down/2_Decision_Making_fullBootPhi0.5/T1_train_test_split.R") 
+source("~/Documents/GitHub/brill_fourth_down/2_Decision_Making_fullBootPhi0.5/T2_models_rf.R")
+source("~/Documents/GitHub/brill_fourth_down/2_Decision_Making_fullBootPhi0.5/T2_models_xgb.R")
 
 ##################
 ### file setup ###

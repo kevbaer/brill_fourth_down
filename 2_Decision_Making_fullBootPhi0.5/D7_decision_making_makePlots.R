@@ -1,9 +1,10 @@
-
+setwd("~/Documents/GitHub/brill_fourth_down/2_Decision_Making_fullBootPhi0.5")
 ### LOAD 4TH DOWN PLOTTING DATA, MODELS, AND FUNCTIONS
 source("D6_loadModelsAndData.R")
 source("D3_decision_making_functions.R")
 options(warn=-1)
 ###options(warn=0)
+
 
 ###############################
 ### Find Good Example Plays ###

@@ -12,8 +12,8 @@ theme_update(text = element_text(size=16))
 theme_update(plot.title = element_text(hjust = 0.5))
 
 # # some helper files are in these
-source("d0_data2h_add_nflscrapr_mutations.R") # source("https://raw.githubusercontent.com/mrcaseb/nflfastR/master/R/helper_add_nflscrapr_mutations.R")
-source("d0_data2h_add_ep_wp.R") # source("https://raw.githubusercontent.com/mrcaseb/nflfastR/master/R/helper_add_ep_wp.R")
+source("~/Documents/GitHub/brill_fourth_down/d0_data2h_add_nflscrapr_mutations.R") # source("https://raw.githubusercontent.com/mrcaseb/nflfastR/master/R/helper_add_nflscrapr_mutations.R")
+source("~/Documents/GitHub/brill_fourth_down/d0_data2h_add_ep_wp.R") # source("https://raw.githubusercontent.com/mrcaseb/nflfastR/master/R/helper_add_ep_wp.R")
 
 # from remote
 # pbp_data_A <- readRDS(url("https://github.com/guga31bb/nflfastR-data/blob/master/models/cal_data.rds?raw=true"))

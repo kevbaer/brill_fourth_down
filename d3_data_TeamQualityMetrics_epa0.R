@@ -1,5 +1,5 @@
 
-source("0_clean_lm.R")
+source("~/Documents/GitHub/brill_fourth_down/0_clean_lm.R")
 data1_a <- read_csv("data1a.csv")
 # data1_a = model_data1a
 # data1_a <- read_csv("data7a.csv")[,1:82]

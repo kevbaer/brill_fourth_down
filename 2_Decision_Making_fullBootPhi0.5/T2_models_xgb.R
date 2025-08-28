@@ -163,7 +163,7 @@ predict_ep_xgb <- function(xgb, test_set, xgb_features, model_name, Regression=F
 }
 
 load_params <- function(target_model_name) {
-  params = list.load(paste0("param_tuning_results_FINAL/", target_model_name, ".yaml"))
+  params = rlist::list.load(paste0("param_tuning_results_FINAL/", target_model_name, ".yaml"))
   nrounds = params$nrounds
   catalytic = params$CATALYTIC
   suppressWarnings({ params = within(params, rm(target_model_name)) })
